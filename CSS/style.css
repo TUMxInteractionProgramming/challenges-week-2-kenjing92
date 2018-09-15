@@ -1,0 +1,144 @@
+
+/*Global*/
+
+        * {
+            /* #2 #font #faces */
+            font-family: 'Roboto', sans-serif;;
+            margin: 0px;
+            padding: 0px;
+        }
+
+        body {
+            /* #2 #colorful #background */
+            background-color: #F5F5F5;
+        }
+
+
+        button {
+            /* #2 #colourful #plusfive */
+            background-color: #CDDC39;
+            color: black;
+            /* #2 #font capital #letters */
+
+        }
+
+        button, strong {
+            /* #uppercase button n w3w */
+            text-transform: uppercase;
+        }
+
+/*App bar*/
+
+        .app-bar {
+            /* #2 #colourful #app-bar */
+            background-color: #3F51B5;
+            color: white;
+        }
+
+/*Channels list*/
+        ul {
+            /* #2 #colorful #channelandchat */
+            background-color: white;
+            list-style-type: none;
+        }
+
+li{
+    padding:16px;
+    font-size: 16px;
+    box-sizing: border-box;
+    border-bottom: 1px solid lightgray;
+    
+}
+
+.selected-ch {
+    color:#3F51B5;
+    border-left: 4px solid #3F51B5;
+}
+
+li img {
+    vertical-align: middle;
+}
+
+/*Tab bar*/
+
+        #tab-bar {
+            background-color:white;
+            text-transform: uppercase;
+            font-size: 13px;
+            border:none;
+        }
+
+    #tab-bar button {
+
+        background-color: white;
+        border-style: none;
+        width: 33%;
+        height: 72px;
+        padding: 16px;
+    }
+
+    #tab-bar button img {
+        display: block;
+        margin: 0 auto;
+        margin-bottom: 4px;
+    }
+
+    #tab-bar button.selected {
+        color: #3F51B5;
+        border-bottom: 4px solid #3F51B5;
+    }
+
+/*Messages*/
+
+
+        /* #2 #colorful #palette is:
+          * Background: #F5F5F5 (GREY 100)
+          * Primary Text: black
+
+          * Primary color: #3F51B5 (INDIGO)
+          * Primary color_text : white
+          * Accent color: #CDDC39 (LIME)
+          * Accent color_text: black
+          */
+
+        .message {
+            width:80%;
+            margin-bottom 8px;
+            margin-left: 2.5%;
+        }
+
+    .own {
+        margin-left: 17.5%;
+    }
+    
+
+
+        .message p {
+            /* #2 #colorful #channelandchat */
+            background-color: white;
+            padding: 16px;
+
+        }
+
+        .message em {
+            /* #2 #font #remaining overrides the default italic appearance of em elements*/
+            font-size: larger;
+            font-style: normal;
+        }
+
+        .message h3 {
+            /* #2 #font #metadata is now medium */
+            font-size: medium;
+        }
+
+        .message h3 a {
+            color:black;
+        }
+
+        .message button{
+    background-color:#CDDC39;
+    color: black;
+    text-transform: uppercase;
+}
+
+
